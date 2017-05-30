@@ -1,0 +1,13 @@
+.carousel-content {
+	display: none;
+}
+
+.carousel-content.active {
+	display: block;
+}
+button {
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 5%;
+  background-color: #DF0;
+}
