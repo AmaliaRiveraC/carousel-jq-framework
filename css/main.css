@@ -1,3 +1,6 @@
+.all {
+  background: palegreen;
+}
 .carousel-content {
 	display: none;
 }
@@ -11,3 +14,25 @@ button {
   width: 5%;
   background-color: #DF0;
 }
+ 
+.container-fluid {
+  width: 80%;
+  
+}
+
+.carousel-content {
+ 
+}
+.img-content {
+  height: 50rem;
+}
+
+.imagenCarousel {
+  border-radius: 50%;
+  border: 5px solid #DDD;
+  background: #000;
+  height: 100%;
+   padding: 1%;
+}
+
+ 

@@ -8,14 +8,14 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
-<body>
-  <header class="container-fluid col-xs-offset-5">
-    <h1 class="col-12">Carousel jQuery</h1>
+<body class="all">
+  <header class="container-fluid">
+    <h1 class="col-xs-offset-5">Carousel jQuery</h1>
   </header>
-  <div class="container-fluid col-xs-offset-4">
-    <div class="carousel center">
+  <div class="container-fluid imagenCarousel">
+    <div class="carousel col-xs-offset-4">
       <div data-slide="0" class="carousel-content active">
-        <img src="assets/uno.jpg" alt="Imagen 1">
+        <img class="img-content"src="assets/uno.jpg" alt="Imagen 1">
       </div>
       <div data-slide="1" class="carousel-content ">
         <img src="assets/dos.jpg" alt="Imagen 2">
@@ -30,7 +30,7 @@
         <img src="assets/cinco.jpg" alt="Imagen 5">
       </div>
     </div>
-    <div class="controls col-xs-offset-2">
+    <div class="controls col-xs-offset-5">
       <a href="#" class="previous">&#60;</a>
       <button class="control" type="button" data-target="0">1</button>
       <button class="control" type="button" data-target="1">2</button>
